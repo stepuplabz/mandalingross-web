@@ -456,20 +456,25 @@ img {
 }
 
 .footer-contact p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .social-media {
-    margin-top: 15px;
+    margin-top: 5px;
+    /* Reduced from 15px to be closer to text flow */
 }
 
 .instagram-link {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    /* Reduced gap */
     color: #fff;
     text-decoration: none;
     transition: var(--transition);
+    font-size: 1rem;
+    line-height: 1.6;
+    /* Match typical text line-height */
 }
 
 .instagram-link:hover {
@@ -480,6 +485,10 @@ img {
 .instagram-link svg {
     width: 20px;
     height: 20px;
+}
+
+width: 20px;
+height: 20px;
 }
 
 .footer-bottom {
