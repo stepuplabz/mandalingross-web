@@ -455,6 +455,33 @@ img {
     color: var(--primary-color);
 }
 
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.instagram-link:hover {
+    color: #E1306C;
+    /* Instagram Color */
+}
+
+.instagram-link svg {
+    width: 20px;
+    height: 20px;
+}
+
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #333;
